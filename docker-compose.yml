@@ -1,0 +1,7 @@
+services:
+  ubuntu:
+    image: ubuntu
+    command: bash
+    stdin_open: true
+    tty: true
+    env_file: stack.env
