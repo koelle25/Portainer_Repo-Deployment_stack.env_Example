@@ -5,7 +5,7 @@ services:
     stdin_open: true
     tty: true
     env_file: stack.env
-  single:
+  single-not-working:
     image: ubuntu
     command: bash
     stdin_open: true
