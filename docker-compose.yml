@@ -1,7 +1,14 @@
 services:
-  ubuntu:
+  all-together:
     image: ubuntu
     command: bash
     stdin_open: true
     tty: true
     env_file: stack.env
+  single:
+    image: ubuntu
+    command: bash
+    stdin_open: true
+    tty: true
+    environment:
+      - FOO=${FOO}
